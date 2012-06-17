@@ -1,0 +1,370 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"inj	inject(init) { |mem, var| .. }"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"rtoken",
+				"rtoken"
+			],
+			[
+				"oauth",
+				"oauth_verifier"
+			],
+			[
+				"strip",
+				"php_strip_whitespace"
+			],
+			[
+				"com",
+				"com"
+			],
+			[
+				"f",
+				"font	font-size: size"
+			],
+			[
+				"dis",
+				"display	display: block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Volumes/ritsuko/Users/pesartain/Dropbox/src/Ruby/authsome/config/keys.yml.dist",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/ritsuko/Users/pesartain/Dropbox/src/Ruby/authsome/config.ru",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/Ruby/authsome/lib/authsome.rb",
+		"/Volumes/storage/users/pesartain/DownloadsToSortFromOSX/testapp/lib/testapp.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/lib/authsome.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/lib/authsome/lastfm.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/config/keys.yml",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dropboxcms/dropboxify/lib/dropboxify.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/config.ru",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/Procfile",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dropboxcms/dropboxify/config.ru",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dropboxcms/dropboxify/Gemfile",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/lib/authsome/linkedin.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/Gemfile",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/config/keys.yml.dist",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/lib/authsome/twitter.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/README.md",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dropboxcms/sinatra/testapp/lib/TestApp.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/authsome.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/lib/lastfm.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/lib/twitter.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/lib/linkedin.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/hello-world-ruby/web.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/hello-world-ruby/Gemfile",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/hello-world-ruby/config.ru",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/hello-world-ruby/README.md",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dropboxcms/dropboxify/README.md",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/hello-world-ruby/Procfile",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/lastfm.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/scripts/screen-alt-is-tmux.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/compx refx building debian packages.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/Examples/webplayer_example.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/alchemyofplay/chalkboardneo.css",
+		"/Volumes/FREECOM250/home/pesartain/Documents/Happiness/Hardware Hacking/ogp/scripts/pinOrder.sh",
+		"/Volumes/FREECOM250/home/pesartain/Documents/Happiness/Hardware Hacking/ogp/scripts/buildComponent.sh",
+		"/Volumes/FREECOM250/home/pesartain/Documents/Happiness/Hardware Hacking/ogp/scripts/fixpinseq.py",
+		"/Volumes/FREECOM250/home/pesartain/Documents/Happiness/Hardware Hacking/ogp/scripts/headergen.py",
+		"/Volumes/FREECOM250/home/pesartain/Documents/Happiness/Hardware Hacking/ogp/ECP2_50-0-1.sym",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/keyring/passwd/rootme.txt",
+		"/Applications/Audio/Native Instruments/readme.txt",
+		"/Volumes/ritsuko/Users/pesartain/Documents/Native Instruments/Uninstaller/Uninstaller_2012-06-07_23-06-36.txt",
+		"/Applications/Audio/Native Instruments/Komplete 7 Players/Documentation/Readme.txt",
+		"/Volumes/ritsuko/Users/pesartain/Documents/Native Instruments/Uninstaller/Uninstaller_2012-06-07_22-57-22.txt",
+		"/Volumes/ritsuko/Users/pesartain/Documents/Native Instruments/Uninstaller/Uninstaller_2012-06-07_22-55-25.txt",
+		"/Volumes/Native Instruments Uninstall Utility/readme.txt",
+		"/Library/Application Support/Native Instruments/Shared Content/SoundPacks/Kontakt Factory Selection.ksp",
+		"/Volumes/NO NAME/GOSMS/backup/SmsFolders/smsbackup_2012-02-21.dat",
+		"/Volumes/ritsuko/Users/Shared/Kontakt Factory Selection Library/Instruments/Band/Classic Bass.nki",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/src/authsome/linkedin.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dropboxcms/dropboxify/config/dropbox.yml",
+		"/Volumes/PENDRIVE/Uni-USB-Installer-Copying.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/runx todo.txt",
+		"/Volumes/storage/users/pesartain/Documents/webspace/applications/myref/myref-work/myref/myref-root/authoraction.php",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dokuwiki/plugins/canviz/syntax.php",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dokuwiki/plugins/canviz/script.js",
+		"/Volumes/ritsuko/Users/pesartain/Sites/bitnami/apps/dokuwiki/htdocs/lib/exe/fetch.php",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dokuwiki/plugins/canviz/action/writejs.php",
+		"/Volumes/ritsuko/Users/pesartain/Sites/bitnami/apps/dokuwiki/conf/users.auth.php",
+		"/Volumes/ritsuko/Users/pesartain/Sites/bitnami/apache2/conf/httpd.conf",
+		"/Volumes/ritsuko/Users/pesartain/Sites/bitnami/apps/dokuwiki/conf/dokuwiki.conf",
+		"/Volumes/ritsuko/Users/pesartain/Sites/bitnami/apps/dokuwiki/data/media/auto/graphviz/dokuwiki.graphviz",
+		"/Volumes/storage/users/pesartain/Documents/webspace/sources/canviz/examples/hello_world/old.html",
+		"/Volumes/storage/users/pesartain/Documents/webspace/sources/canviz/examples/hello_world/graph.gv",
+		"/Volumes/storage/users/pesartain/Documents/webspace/sources/canviz/examples/hello_world/index.html",
+		"/Volumes/storage/users/pesartain/Documents/webspace/sources/canviz/examples/hello_world/new.html",
+		"/Volumes/storage/users/pesartain/Documents/webspace/sources/canviz/excanvas/examples/example1.html",
+		"/Volumes/storage/users/pesartain/Documents/webspace/sources/canviz/examples/hello_world/graph-xdot.gv",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dokuwiki/plugins/canviz/canviz/canviz.js",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dokuwiki/plugins/dropicon/colornames.php",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/index.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/Examples/responsive_design.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/alchemyofplay/default.js",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/alchemyofplay/index.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/alchemyofplay/custom.css",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/Examples/example.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/Examples/jsoverride_example.html",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/blog.txt",
+		"/Volumes/ritsuko/Users/pesartain/src/Liquibase-DokuWiki-to-Markdown-Converteroutput/20111123_super_dungeon_exploring.md",
+		"/Volumes/ritsuko/Users/pesartain/src/Liquibase-DokuWiki-to-Markdown-Converteroutput/20090518_it_s_1507.md",
+		"/Volumes/ritsuko/Users/pesartain/src/Liquibase-DokuWiki-to-Markdown-Converter/scripts/script.output",
+		"/Volumes/ritsuko/Users/pesartain/src/Liquibase-DokuWiki-to-Markdown-Converter/scripts/issues.txt",
+		"/Volumes/ritsuko/Users/pesartain/src/Liquibase-DokuWiki-to-Markdown-Converter/scripts/MarkdownCleanup.php",
+		"/Volumes/ritsuko/Users/pesartain/src/Liquibase-DokuWiki-to-Markdown-Converter/scripts/DocuwikiToMarkdownExtra.php",
+		"/Volumes/ritsuko/Users/pesartain/src/Liquibase-DokuWiki-to-Markdown-Converter/scripts/TranslateSSDocs.php",
+		"/Volumes/ritsuko/Users/pesartain/Downloads/ff3sound/readme.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/compx refx linux ps2 joypad buttons.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/example.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/getting-started.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/Music/index.html",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/gamx refx my 360 reviews and demo list.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/scripts/parsers/reviewlinetofile.rb",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/alchemyofplay/index.html",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/Experiments/alchemyofplay_index.html",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/Music/example.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/alchemyofplay/reviews/ Ancients of Ooga .txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/alchemyofplay/reviews/vanquish.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/alchemyofplay/reviews/ Sam and Max Save the World.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/scripts/parsers/ Final Fantasy XIII-2.txt",
+		"/Volumes/storage/users/pesartain/Documents/Happiness/Gaming/backseatgamers/gamelist.txt",
+		"/Volumes/storage/users/pesartain/Documents/Happiness/Gaming/backseatgamers/gamedemolist.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/Wealth/Finance/Banking/20091001 - 20091231.csv",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/apps/pancake.io/alchemyofplay/index.md",
+		"/Volumes/ritsuko/Users/pesartain/.ssh/known_hosts",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/musx band group sound names.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/musx runx lyrics 2.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/musx runx lyrics.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/musx refx live looping.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/happiness/music/jack 7/Ideas/20120116 - ideas.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/dropquest2012.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/Dropquest 2012/46637.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/Dropquest 2012/Captain's Logs/Chapter 1.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/Dropquest 2012/untitled.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/happiness/Hacking/midi-footswitch/footswitch.cyp",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/happiness/Hacking/midi-footswitch/footswitch.cyw",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/happiness/Hacking/midi-footswitch/evalboard.cfg",
+		"/Volumes/PHONESD/MUSIC/20120509 acoustic set.m3u",
+		"/Volumes/ritsuko/Users/pesartain/Downloads/controlP5-0.7.2/install_instructions.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/musx runx miguel mail.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/musx runx Another Ember list.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/epistle/musx refx Miguel Originals.txt",
+		"/Volumes/storage/users/pesartain/Documents/webspace/archives/pesartain.com/public_html/root/data/pages/music.txt",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dokuwiki/templates/lookingforme/enhance.js",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/webspace/dokuwiki/templates/lookingforme/main.php",
+		"/Volumes/storage/users/pesartain/Documents/webspace/applications/unitbuilder/events.jquery.js",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/Apps/Pancake.io/Screaming at Traffic/index.html",
+		"/Volumes/ritsuko/Users/pesartain/Dropbox/Apps/Pancake.io/Screaming at Traffic/example.txt",
+		"/Volumes/storage/users/pesartain/Documents/webspace/applications/unitbuilder/functions.js",
+		"/Volumes/storage/users/pesartain/Documents/webspace/applications/unitbuilder/figure.class.js",
+		"/Volumes/storage/users/pesartain/Documents/webspace/dokufarm/createanimal.sh",
+		"/Volumes/storage/users/pesartain/Documents/webspace/dokufarm/pq/data/pages/raid.txt"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Only in /Volumes/rits",
+			"({{ site.url }}/{{ page.lang }}/)(.*?)(.html)",
+			"\\]\\((\\{\\{ site\\.url \\}\\})\\/(\\{\\{ site\\.lang \\}\\})\\/(.*?)\\.(html)\\)",
+			"\\/(\\{\\{ site\\.url \\}\\})\\/(\\{\\{ site\\.lang \\}\\})\\/(.*?)\\.(html)\\)",
+			"\\/({{ site.url }})\\/({{ site.lang }})\\/(.*?)\\.html\\)",
+			"Blockbuster",
+			"gpio",
+			"jp-controls"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Volumes/ritsuko/Users/pesartain/Dropbox/src/Ruby/authsome/config/keys.yml.dist",
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Volumes/ritsuko/Users/pesartain/Dropbox/src/Ruby/authsome/config.ru",
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

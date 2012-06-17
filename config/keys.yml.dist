@@ -1,0 +1,12 @@
+lastfm:
+  api: key
+  secret: key
+  user: user
+
+linkedin:
+  api: key
+  secret: key
+  keypair: [key, key]
+
+twitter:
+  user: user
