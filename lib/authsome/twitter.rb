@@ -7,10 +7,7 @@ class AuthsomeTwitter
   end
 
 
-  def getTweets
-
-#    Twitter.configure { |config| config.proxy = "http://192.168.44.98:3128" }
-
+  def twitter_getTweets
     tweets = []
     Twitter.user_timeline(@keys["user"]).first(5).each do |tweet|
        tweets.push(tweet.text)
@@ -18,4 +15,4 @@ class AuthsomeTwitter
     return tweets
   end 
 
-end # endclass
+end

@@ -7,7 +7,7 @@ class AuthsomeLinkedin
     @client.authorize_from_access(keys["keypair"][0], keys["keypair"][1])  
   end
 
-  def getSummary
+  def linkedin_getSummary
     return @client.profile(:fields => %w(first-name last-name headline location specialties educations positions picture-url summary))
   end
 

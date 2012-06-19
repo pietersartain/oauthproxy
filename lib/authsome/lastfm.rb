@@ -7,15 +7,13 @@ class AuthsomeLastfm
     @keys = keys
   end
 
-  def getArtists
+  def lastfm_getArtists
     # http://www.last.fm/api/show/user.getTopArtists
     xmlfeed = 'http://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=' << @keys["user"] << '&limit=50&api_key=' << @keys["api"]
 
-    # Read the top 3 artists, and then a random scattering of the other 50.
-    # So, something like:
-
     doc = Nokogiri::XML(open(xmlfeed))
 
+    # Read the top 3 artists, and then a random scattering of the other 50.
     samples = [1, 2, 3]
     samples += (4..50).to_a.sample(3).sort
 
@@ -35,7 +33,8 @@ class AuthsomeLastfm
     return scattering
   end
 
-  def getTracks
+  def lastfm_getTracks
+    # http://www.last.fm/api/show/user.getRecentTracks
     xmlfeed = 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=' << @keys["user"] << '&api_key=' << @keys["api"]
 
     doc = Nokogiri::XML(open(xmlfeed))
@@ -47,7 +46,7 @@ class AuthsomeLastfm
       artist = track.css('artist').text
       album  = track.css('album').text
       song   = track.css('name').text
-      date   = track.css('date').first #.get_attribute('uts')
+      date   = track.css('date').first
 
       date = date["uts"] unless date.nil?
 

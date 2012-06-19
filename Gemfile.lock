@@ -2,6 +2,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     daemons (1.1.8)
+    dalli (2.0.5)
     eventmachine (0.12.10)
     faraday (0.8.1)
       multipart-post (~> 1.1)
@@ -37,6 +38,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dalli
   json
   linkedin
   nokogiri
