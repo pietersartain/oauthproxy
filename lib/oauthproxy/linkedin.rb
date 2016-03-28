@@ -1,6 +1,6 @@
 require 'linkedin'
 
-class AuthsomeLinkedin
+class OauthproxyLinkedin
 
   def initialize(keys)
     @client = LinkedIn::Client.new(keys["api"], keys["secret"])

@@ -9,7 +9,7 @@ require "nokogiri"
 $LOAD_PATH.unshift(File.expand_path("../lib", __FILE__))
 
 require 'sinatra'
-require File.expand_path("../lib/authsome.rb", __FILE__)
+require File.expand_path("../lib/oauthproxy.rb", __FILE__)
 
-app = Authsome.new
+app = Oauthproxy.new
 run app

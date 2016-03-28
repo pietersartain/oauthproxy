@@ -2,18 +2,18 @@
  *
  */
 
-document.write("<h1>Tweets</h1><div id='authsome_twitter_getTweets' class='' style='display: none'>No tweets found.</div>");
-document.write("<h1>Last Played Tracks</h1><div id='authsome_lastfm_getTracks' class='' style='display: none'>No last played tracks found.</div>");
-document.write("<h1>Top Artists</h1><div id='authsome_lastfm_getArtists' class='' style='display: none'>No favourite artists found.</div>");
-document.write("<h1>LinkedIn Details</h1><div id='authsome_linkedin_getSummary' class='' style='display: none'>No linkedin details found.</div>");
+document.write("<h1>Tweets</h1><div id='oauthproxy_twitter_getTweets' class='' style='display: none'>No tweets found.</div>");
+document.write("<h1>Last Played Tracks</h1><div id='oauthproxy_lastfm_getTracks' class='' style='display: none'>No last played tracks found.</div>");
+document.write("<h1>Top Artists</h1><div id='oauthproxy_lastfm_getArtists' class='' style='display: none'>No favourite artists found.</div>");
+document.write("<h1>LinkedIn Details</h1><div id='oauthproxy_linkedin_getSummary' class='' style='display: none'>No linkedin details found.</div>");
 
-var querystring = new ScriptQuery('authsome.js').parse();
-var authsome = "";
+var querystring = new ScriptQuery('oauthproxy.js').parse();
+var oauthproxy = "";
 
 if (document.location['hostname'] == 'pancake.io') {
-  authsome = 'http://quiet-journey-2181.herokuapp.com/'
+  oauthproxy = 'http://quiet-journey-2181.herokuapp.com/'
 } else {
-  authsome = 'http://'+document.location['hostname']+':9292';
+  oauthproxy = 'http://'+document.location['hostname']+':9292';
 }
 
 
@@ -31,11 +31,11 @@ month[9]  = "October";
 month[10] = "November";
 month[11] = "December";
 
-Authsome = (function() {
+oauthproxy = (function() {
 
 function requestContent() {
   var script = document.createElement('script');
-  script.src = authsome + '/' + querystring['src'];
+  script.src = oauthproxy + '/' + querystring['src'];
   document.getElementsByTagName('head')[0].appendChild(script)
 }
 
@@ -110,10 +110,10 @@ this.linkedin_getSummary = function(employers) {
 }
 
 this.loop = function(data, methodname) {
-  var doc = document.getElementById('authsome_' + methodname);
+  var doc = document.getElementById('oauthproxy_' + methodname);
   var str = "";
-  data[methodname].forEach(function(item) { str += Authsome[methodname](item); });
-  //postmethod = Authsome[methodname+"_post"];
+  data[methodname].forEach(function(item) { str += Oauthproxy[methodname](item); });
+  //postmethod = Oauthproxy[methodname+"_post"];
   //if (postmethod && postmethod === "function") { postmethod(); }
   doc.innerHTML = str;
   doc.style.display = 'block';
@@ -132,7 +132,7 @@ this.serverData = function( data ) {
       case 'linkedin_getSummary':
         str = this.linkedin_getProfile(data);
         str += this.linkedin_getSummary(data[methodname].positions.all);
-        var doc = document.getElementById('authsome_' + methodname);
+        var doc = document.getElementById('oauthproxy_' + methodname);
         doc.innerHTML = str;
         doc.style.display = 'block';
       break;

@@ -21,7 +21,7 @@ h1 {
  * Twitter tweet list
  */
 /* line 17, ../sass/design.scss */
-div#authsome_twitter_getTweets > div {
+div#oauthproxy_twitter_getTweets > div {
   border-radius: 8px;
   background: #b2b2b2;
   padding: 5px;
@@ -29,7 +29,7 @@ div#authsome_twitter_getTweets > div {
 }
 
 /* line 24, ../sass/design.scss */
-div#authsome_twitter_getTweets > div:after {
+div#oauthproxy_twitter_getTweets > div:after {
   content: ".";
   display: block;
   height: 0;
@@ -39,13 +39,13 @@ div#authsome_twitter_getTweets > div:after {
 }
 
 /* line 33, ../sass/design.scss */
-div#authsome_twitter_getTweets > div > p {
+div#oauthproxy_twitter_getTweets > div > p {
   margin: 0px;
   float: left;
 }
 
 /* line 38, ../sass/design.scss */
-div#authsome_twitter_getTweets > div > span {
+div#oauthproxy_twitter_getTweets > div > span {
   color: #999999;
   display: block;
   float: right;
@@ -55,7 +55,7 @@ div#authsome_twitter_getTweets > div > span {
  * lastfm Last tracks
  */
 /* line 47, ../sass/design.scss */
-div#authsome_lastfm_getTracks > div {
+div#oauthproxy_lastfm_getTracks > div {
   border-radius: 8px;
   background: #b2b2b2;
   padding: 5px;
@@ -63,7 +63,7 @@ div#authsome_lastfm_getTracks > div {
 }
 
 /* line 54, ../sass/design.scss */
-div#authsome_lastfm_getTracks > div > span#date {
+div#oauthproxy_lastfm_getTracks > div > span#date {
   color: #999999;
   float: right;
 }
@@ -72,7 +72,7 @@ div#authsome_lastfm_getTracks > div > span#date {
  * lastfm favourite artists
  */
 /* line 62, ../sass/design.scss */
-div#authsome_lastfm_getArtists {
+div#oauthproxy_lastfm_getArtists {
   width: 100%;
   -moz-column-count: 2;
   -webkit-column-count: 2;
@@ -80,7 +80,7 @@ div#authsome_lastfm_getArtists {
 }
 
 /* line 69, ../sass/design.scss */
-div#authsome_lastfm_getArtists > div {
+div#oauthproxy_lastfm_getArtists > div {
   border-radius: 8px;
   background: #b2b2b2;
   padding: 10px;
@@ -90,7 +90,7 @@ div#authsome_lastfm_getArtists > div {
 }
 
 /* line 78, ../sass/design.scss */
-div#authsome_lastfm_getArtists > div > img {
+div#oauthproxy_lastfm_getArtists > div > img {
   border-radius: 4px;
   display: block;
   width: 100%;
@@ -99,12 +99,12 @@ div#authsome_lastfm_getArtists > div > img {
 }
 
 /* line 86, ../sass/design.scss */
-div#authsome_lastfm_getArtists > div > span {
+div#oauthproxy_lastfm_getArtists > div > span {
   color: #999999;
 }
 
 /* line 90, ../sass/design.scss */
-div#authsome_lastfm_getArtists > div > span > a {
+div#oauthproxy_lastfm_getArtists > div > span > a {
   color: #6e76d2;
 }
 
@@ -112,20 +112,20 @@ div#authsome_lastfm_getArtists > div > span > a {
  * linkedin summary
  */
 /* line 97, ../sass/design.scss */
-div#authsome_linkedin_getSummary {
+div#oauthproxy_linkedin_getSummary {
   border-radius: 8px;
   background: #b2b2b2;
   padding: 10px;
 }
 
 /* line 107, ../sass/design.scss */
-div#authsome_linkedin_getSummary > div.profile > div.header {
+div#oauthproxy_linkedin_getSummary > div.profile > div.header {
   padding-bottom: 1em;
   border-bottom: 1px solid #888888;
 }
 
 /* line 112, ../sass/design.scss */
-div#authsome_linkedin_getSummary > div.profile img {
+div#oauthproxy_linkedin_getSummary > div.profile img {
   border-radius: 4px;
   float: left;
   margin-right: 2rem;
@@ -133,7 +133,7 @@ div#authsome_linkedin_getSummary > div.profile img {
 }
 
 /* line 119, ../sass/design.scss */
-div#authsome_linkedin_getSummary > div.profile span.name {
+div#oauthproxy_linkedin_getSummary > div.profile span.name {
   font-family: 'Lora', serif;
   font-size: 1.5rem;
   letter-spacing: 0.2em;
@@ -141,31 +141,31 @@ div#authsome_linkedin_getSummary > div.profile span.name {
 }
 
 /* line 126, ../sass/design.scss */
-div#authsome_linkedin_getSummary > div.profile span.headline {
+div#oauthproxy_linkedin_getSummary > div.profile span.headline {
   display: block;
   color: #888888;
 }
 
 /* line 131, ../sass/design.scss */
-div#authsome_linkedin_getSummary > div.profile > p.specialties {
+div#oauthproxy_linkedin_getSummary > div.profile > p.specialties {
   color: #888888;
   font-style: italic;
   font-size: 0.8rem;
 }
 
 /* line 137, ../sass/design.scss */
-div#authsome_linkedin_getSummary > div.employers {
+div#oauthproxy_linkedin_getSummary > div.employers {
   border-top: 1px solid #888888;
   padding-top: 1em;
 }
 
 /* line 142, ../sass/design.scss */
-div#authsome_linkedin_getSummary > div.employers > p {
+div#oauthproxy_linkedin_getSummary > div.employers > p {
   font-size: 0.8rem;
 }
 
 /* line 146, ../sass/design.scss */
-div#authsome_linkedin_getSummary > div.employers > span.dates {
+div#oauthproxy_linkedin_getSummary > div.employers > span.dates {
   display: block;
   font-size: 0.7rem;
   color: #888888;
@@ -173,26 +173,26 @@ div#authsome_linkedin_getSummary > div.employers > span.dates {
 }
 
 /* line 153, ../sass/design.scss */
-div#authsome_linkedin_getSummary > div.employers > span.title {
+div#oauthproxy_linkedin_getSummary > div.employers > span.title {
   letter-spacing: 0.2em;
 }
 
 /* line 157, ../sass/design.scss */
-div#authsome_linkedin_getSummary > div.employers > span.company {
+div#oauthproxy_linkedin_getSummary > div.employers > span.company {
   color: #888888;
 }
 
 @media only screen and (min-width : 768px) {
   /* Styles */
   /* line 164, ../sass/design.scss */
-  div#authsome_lastfm_getArtists {
+  div#oauthproxy_lastfm_getArtists {
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3;
   }
 
   /* line 170, ../sass/design.scss */
-  div#authsome_linkedin_getSummary > div.employers {
+  div#oauthproxy_linkedin_getSummary > div.employers {
     margin-right: 1%;
     width: 49%;
     display: inline-block;
@@ -202,14 +202,14 @@ div#authsome_linkedin_getSummary > div.employers > span.company {
 @media only screen and (min-width : 1382px) {
   /* Styles */
   /* line 180, ../sass/design.scss */
-  div#authsome_lastfm_getArtists {
+  div#oauthproxy_lastfm_getArtists {
     -moz-column-count: 4;
     -webkit-column-count: 4;
     column-count: 4;
   }
 
   /* line 186, ../sass/design.scss */
-  div#authsome_linkedin_getSummary > div.employers {
+  div#oauthproxy_linkedin_getSummary > div.employers {
     width: 32%;
   }
 }

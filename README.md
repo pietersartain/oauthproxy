@@ -1,9 +1,11 @@
-# authsome
-authsome is a social-network/oauth proxy to provide a limited amount of information from restricted services to be used without authentication.
+# oauthproxy
+oauthproxy is a social-network/oauth proxy to provide a limited amount of information from restricted services to be used without authentication.
 
-Primarily authsome has been designed to be used by javascript on [pancake.io](http://pancake.io).
+Primarily oauthproxy has been designed to be used by javascript on [pancake.io](http://pancake.io).
 
-Since it's not sensible to expose your private keys by embedding them in client-side code, authsome runs server-side and acts as an endpoint for http requests that provides JSON-formatted data in response.
+Since it's not sensible to expose your private keys by embedding them in client-side code, oauthproxy runs server-side and acts as an endpoint for http requests that provides JSON-formatted data in response.
+
+I would highly discourage it's use. It's primary purpose was as a learning exercise for how to integrate with services that provide data via oauth.
 
 ## Example
 You'll find an `example` directory containing some HTML and js used to demonstrate how to use JSON response data from in a static (js-enabled) page to render something to screen.
@@ -17,16 +19,16 @@ Populate a keys.yaml file with appropriate credential information. In the case o
 Embedding the following into your markdown or html file will trigger the processing of the response data.
 
 `<script language="javascript">
-Authsome = {
+Oauthproxy = {
   serverResponse: function(data) {
     // do something with the data here
   }
 }
 </script>
-<script type="text/javascript" src="http://authsome-app-path/endpoint" />`
+<script type="text/javascript" src="http://oauthproxy-app-path/endpoint" />`
 
 ## Services and endpoints
-Currently authsome supports:
+Currently oauthproxy supports:
 
 * [linkedin](http://linkedin.com)
   * /linkedin/summary

@@ -1,6 +1,6 @@
 require 'twitter'
 
-class AuthsomeTwitter
+class OauthproxyTwitter
 
   def initialize(keys)
     @keys = keys

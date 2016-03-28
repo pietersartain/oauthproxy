@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-class AuthsomeLastfm
+class OauthproxyLastfm
 
   def initialize(keys)
     @keys = keys

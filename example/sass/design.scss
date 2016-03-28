@@ -14,14 +14,14 @@ h1   { clear: both; font-family: 'Lora', serif; font-size: 1.2rem; font-weight: 
 /*
  * Twitter tweet list
  */
-div#authsome_twitter_getTweets > div {
+div#oauthproxy_twitter_getTweets > div {
   border-radius: 8px;
   background: $padding;
   padding: 5px;
   margin-bottom: 5px;
 }
 
-div#authsome_twitter_getTweets > div:after {
+div#oauthproxy_twitter_getTweets > div:after {
   content: ".";
   display: block;
   height: 0;
@@ -30,12 +30,12 @@ div#authsome_twitter_getTweets > div:after {
   visibility: hidden;
 }
 
-div#authsome_twitter_getTweets > div > p {
+div#oauthproxy_twitter_getTweets > div > p {
   margin: 0px;
   float: left;
 }
 
-div#authsome_twitter_getTweets > div > span {
+div#oauthproxy_twitter_getTweets > div > span {
   color: $lowlight;
   display: block;
   float: right;
@@ -44,14 +44,14 @@ div#authsome_twitter_getTweets > div > span {
 /*
  * lastfm Last tracks
  */
-div#authsome_lastfm_getTracks > div {
+div#oauthproxy_lastfm_getTracks > div {
   border-radius: 8px;
   background: $padding;
   padding: 5px;
   margin-bottom: 5px;
 }
 
-div#authsome_lastfm_getTracks > div > span#date {
+div#oauthproxy_lastfm_getTracks > div > span#date {
   color: $lowlight;
   float: right;
 }
@@ -59,14 +59,14 @@ div#authsome_lastfm_getTracks > div > span#date {
 /*
  * lastfm favourite artists
  */
-div#authsome_lastfm_getArtists {
+div#oauthproxy_lastfm_getArtists {
   width: 100%;
   -moz-column-count: 2;
   -webkit-column-count: 2;
   column-count: 2;
 }
 
-div#authsome_lastfm_getArtists > div {
+div#oauthproxy_lastfm_getArtists > div {
   border-radius: 8px;
   background: $padding;
   padding: 10px;
@@ -75,7 +75,7 @@ div#authsome_lastfm_getArtists > div {
   text-align: center;
 }
 
-div#authsome_lastfm_getArtists > div > img {
+div#oauthproxy_lastfm_getArtists > div > img {
   border-radius: 4px;
   display: block;
   width: 100%;
@@ -83,91 +83,91 @@ div#authsome_lastfm_getArtists > div > img {
   margin-right: auto;
 }
 
-div#authsome_lastfm_getArtists > div > span {
+div#oauthproxy_lastfm_getArtists > div > span {
   color: $lowlight;
 }
 
-div#authsome_lastfm_getArtists > div > span > a {
+div#oauthproxy_lastfm_getArtists > div > span > a {
   color: $link;
 }
 
 /*
  * linkedin summary
  */
-div#authsome_linkedin_getSummary {
+div#oauthproxy_linkedin_getSummary {
   border-radius: 8px;
   background: $padding;
   padding: 10px;
 }
 
-div#authsome_linkedin_getSummary > div.profile {
+div#oauthproxy_linkedin_getSummary > div.profile {
 
 }
 
-div#authsome_linkedin_getSummary > div.profile > div.header {
+div#oauthproxy_linkedin_getSummary > div.profile > div.header {
   padding-bottom: 1em;
   border-bottom: 1px solid $alt_low;
 }
 
-div#authsome_linkedin_getSummary > div.profile img {
+div#oauthproxy_linkedin_getSummary > div.profile img {
   border-radius: 4px; 
   float: left;
   margin-right: 2rem;
   margin-bottom: 0.5rem;
 }
 
-div#authsome_linkedin_getSummary > div.profile span.name {
+div#oauthproxy_linkedin_getSummary > div.profile span.name {
   font-family: 'Lora', serif;
   font-size: 1.5rem;
   letter-spacing: 0.2em;
   display: block;
 }
 
-div#authsome_linkedin_getSummary > div.profile span.headline {
+div#oauthproxy_linkedin_getSummary > div.profile span.headline {
   display: block;
   color: $alt_low;
 }
 
-div#authsome_linkedin_getSummary > div.profile > p.specialties {
+div#oauthproxy_linkedin_getSummary > div.profile > p.specialties {
   color: $alt_low;
   font-style: italic;
   font-size: 0.8rem;
 }
 
-div#authsome_linkedin_getSummary > div.employers {
+div#oauthproxy_linkedin_getSummary > div.employers {
   border-top: 1px solid $alt_low;
   padding-top: 1em;
 }
 
-div#authsome_linkedin_getSummary > div.employers > p {
+div#oauthproxy_linkedin_getSummary > div.employers > p {
   font-size: 0.8rem;
 }
 
-div#authsome_linkedin_getSummary > div.employers > span.dates {
+div#oauthproxy_linkedin_getSummary > div.employers > span.dates {
   display: block;
   font-size: 0.7rem;
   color: $alt_low;
   margin-bottom: 0.7rem;
 }
 
-div#authsome_linkedin_getSummary > div.employers > span.title {
+div#oauthproxy_linkedin_getSummary > div.employers > span.title {
   letter-spacing: 0.2em;
 }
 
-div#authsome_linkedin_getSummary > div.employers > span.company {
+div#oauthproxy_linkedin_getSummary > div.employers > span.company {
   color: $alt_low;
 } 
 
 @media only screen and (min-width : 768px) {
 /* Styles */
 
-  div#authsome_lastfm_getArtists {
+  div#oauthproxy_lastfm_getArtists {
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3;
   }
 
-  div#authsome_linkedin_getSummary > div.employers {
+  div#oauthproxy_linkedin_getSummary > div.employers {
     margin-right: 1%;
     width: 49%;
     display: inline-block;
@@ -177,13 +177,13 @@ div#authsome_linkedin_getSummary > div.employers > span.company {
 
 @media only screen and (min-width : 1382px) {
 /* Styles */
-  div#authsome_lastfm_getArtists {
+  div#oauthproxy_lastfm_getArtists {
     -moz-column-count: 4;
     -webkit-column-count: 4;
     column-count: 4;
   }
 
-  div#authsome_linkedin_getSummary > div.employers {
+  div#oauthproxy_linkedin_getSummary > div.employers {
     width: 32%;
   }
 }

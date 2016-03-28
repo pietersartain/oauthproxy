@@ -1,25 +1,25 @@
-require 'authsome/lastfm'
-require 'authsome/twitter'
-require 'authsome/linkedin'
+require 'oauthproxy/lastfm'
+require 'oauthproxy/twitter'
+require 'oauthproxy/linkedin'
 
 require 'ostruct'
 require 'yaml'
 require 'json'
 require 'dalli'
 
-class Authsome < Sinatra::Base
+class Oauthproxy < Sinatra::Base
   set :keys, OpenStruct.new(YAML.load(File.open('config/keys.yml')))
   set :cache, Dalli::Client.new('localhost:11211', {:expires_in => 600})
 
   def initialize(*args)
     super
 
-    @authsome_service = {}
+    @oauthproxy_service = {}
 
-    Dir.glob("lib/authsome/*") do |file|
-      plugin   = /lib\/authsome\/(.*)\.rb/.match(file)[1]
-      instance = 'Authsome' << plugin.capitalize
-      @authsome_service[plugin] = eval(instance + '.new(settings.keys.' << plugin << ')')
+    Dir.glob("lib/oauthproxy/*") do |file|
+      plugin   = /lib\/oauthproxy\/(.*)\.rb/.match(file)[1]
+      instance = 'Oauthproxy' << plugin.capitalize
+      @oauthproxy_service[plugin] = eval(instance + '.new(settings.keys.' << plugin << ')')
 
     end
 
@@ -29,7 +29,7 @@ class Authsome < Sinatra::Base
     output = settings.cache.get(methodname)
     if output.nil? then
       plugin = methodname.split('_')[0]
-      settings.cache.set(methodname, @authsome_service[plugin].method(methodname).call)
+      settings.cache.set(methodname, @oauthproxy_service[plugin].method(methodname).call)
       output = settings.cache.get(methodname)
     end
 
@@ -41,7 +41,7 @@ class Authsome < Sinatra::Base
 
   def json_wrap(results)
     output = get_cache(results)
-    return "Authsome.serverData(" << JSON.generate(output) << ")"
+    return "Oauthproxy.serverData(" << JSON.generate(output) << ")"
   end
 
   def cache(response)
@@ -53,7 +53,7 @@ class Authsome < Sinatra::Base
   get '/everything' do
     result = {}
     %w(lastfm_getTracks lastfm_getArtists linkedin_getSummary twitter_getTweets).each { |setting| result[setting] = get_cache(setting)[setting] }
-    response = "Authsome.serverData(" << JSON.generate(result) << ")"
+    response = "Oauthproxy.serverData(" << JSON.generate(result) << ")"
     cache(response)
     response
   end
