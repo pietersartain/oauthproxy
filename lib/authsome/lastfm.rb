@@ -14,11 +14,10 @@ class AuthsomeLastfm
     doc = Nokogiri::XML(open(xmlfeed))
 
     # Read the top 3 artists, and then a random scattering of the other 50.
-    samples = [1, 2, 3]
-    samples += (4..50).to_a.sample(3).sort
+    samples = [1, 2, 3] + (4..50).to_a.sample(7)
 
     scattering = []
-    samples.each do |s|
+    samples.shuffle.each do |s|
       info = doc.css("artist[rank='#{s}']")
 
       scattering.push({
@@ -26,7 +25,7 @@ class AuthsomeLastfm
         "rank"   => "#{s}",
         "url"    => info.css("url").text,
         "count"  => info.css("playcount").text,
-        "image"  => info.css("image[size='medium']").text
+        "image"  => info.css("image[size='extralarge']").text
         })
     end
 

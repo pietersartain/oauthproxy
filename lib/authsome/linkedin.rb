@@ -8,7 +8,15 @@ class AuthsomeLinkedin
   end
 
   def linkedin_getSummary
-    return @client.profile(:fields => %w(first-name last-name headline location specialties educations positions picture-url summary))
+    summary = @client.profile(:fields => %w(first-name last-name headline location specialties positions picture-url summary))
+
+    summary['summary'].gsub!("\n",'<br />')
+
+    summary['positions']['all'].each do |p|
+      p['summary'].gsub!("\n",'<br />')
+    end
+
+    return summary
   end
 
 end

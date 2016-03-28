@@ -21,9 +21,6 @@ class Authsome < Sinatra::Base
       instance = 'Authsome' << plugin.capitalize
       @authsome_service[plugin] = eval(instance + '.new(settings.keys.' << plugin << ')')
 
-      eval(instance + '.instance_methods(false)').each do |method|
-        settings.cache.set(method, @authsome_service[plugin].method(method).call) if /#{plugin}/.match(method)
-      end
     end
 
   end
@@ -35,36 +32,54 @@ class Authsome < Sinatra::Base
       settings.cache.set(methodname, @authsome_service[plugin].method(methodname).call)
       output = settings.cache.get(methodname)
     end
-    return output
+
+    result = {}
+    result[methodname] = output
+
+    return result
   end
 
   def json_wrap(results)
     output = get_cache(results)
-    "Authsome.serverData(" << JSON.generate(output) << ")"
+    return "Authsome.serverData(" << JSON.generate(output) << ")"
+  end
+
+  def cache(response)
+    cache_control :public, :must_revalidate, :max_age => 600
+    last_modified Date.today
+    etag Digest::MD5.hexdigest(response)
   end
 
   get '/everything' do
-
     result = {}
-    %w(lastfm_getTracks lastfm_getArtists linkedin_getSummary twitter_getTweets).each { |setting| result[setting] = get_cache(setting) }
-
-    "Authsome.serverData(" << JSON.generate(result) << ")"
+    %w(lastfm_getTracks lastfm_getArtists linkedin_getSummary twitter_getTweets).each { |setting| result[setting] = get_cache(setting)[setting] }
+    response = "Authsome.serverData(" << JSON.generate(result) << ")"
+    cache(response)
+    response
   end
 
   get '/lastfm/tracks' do
-    json_wrap('lastfm_getTracks')
+    response = json_wrap('lastfm_getTracks')
+    cache(response)
+    response
   end
 
   get '/lastfm/artists' do
-    json_wrap('lastfm_getArtists')
+    response = json_wrap('lastfm_getArtists')
+    cache(response)
+    response
   end
 
   get '/linkedin/summary' do
-    json_wrap('linkedin_getSummary')
+    response = json_wrap('linkedin_getSummary')
+    cache(response)
+    response
   end
 
   get '/twitter/tweets' do
-    json_wrap('twitter_getTweets')
+    response = json_wrap('twitter_getTweets')
+    cache(response)
+    response
   end
 
   get '*' do
